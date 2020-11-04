@@ -3,6 +3,44 @@ body {
     padding: 0;
 }
 
+h3 {
+    color: #1ED760;
+}
+
 .display-6 {
-    padding: 2.5%;
+    padding: 4%;
+}
+
+.card {
+    height: 550px;
+    width: 230px;
+    border-color: #1ED760;
+    border-width: 2px;   
+}
+
+.card-img-top{
+    height: 270px;
+    object-fit: cover;
+}
+
+#header {
+    background-color: #000000;
+}
+
+#cardContainer {
+    justify-content: center;
+    display: flex;
+    height: auto; 
+}
+
+
+#artistOfTheDay {
+  height: 55%;
+  width: 50%;
+
+  margin-bottom: 100px !important;
+   
+
+
+  
 }
